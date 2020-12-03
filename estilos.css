@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(252, 165, 191);
+    
+}
+footer{
+    text-align:center;
+    color: white;
+}
+.parrafo1{
+    font-size: 25px;
+    Font-weight: italic;
+    font-family:Lucida Bright;
+}
+
