@@ -6,6 +6,6 @@ $id=$_GET["id"];
 
 $operacionBD= new BaseDatos();
 
-$consultasSQL="DELETE FROM productos WHERE codigoProducto='$id'";
+$consultasSQL="DELETE FROM productos WHERE id='$id'";
 
 $operacionBD->eliminarDatos($consultasSQL);

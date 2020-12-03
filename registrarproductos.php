@@ -8,13 +8,14 @@ if(isset($_POST["Boton"])){
     $marca=$_POST["marcap"];
     $precio=$_POST["preciop"];
     $descripcion=$_POST["descripcionp"];
+    $foto=$_POST["foto"];
 
    // echo($nombre."-".$marca."-".$precio."-".$descripcion);
 
    $operacionBD= new BaseDatos();
    
 
-   $consultaSQL="INSERT INTO productos(nombre, marca, precio, descripcion) VALUES ('$nombre','$marca','$precio', '$descripcion')";
+   $consultaSQL="INSERT INTO productos(nombre, marca, precio, descripcion, foto) VALUES ('$nombre','$marca','$precio', '$descripcion', '$foto')";
    
 
    $operacionBD->agregarDatos($consultaSQL);

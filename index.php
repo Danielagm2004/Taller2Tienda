@@ -11,9 +11,10 @@
 
 <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <img src="icono/magdalena.png" width="30" height="30" class="d-inline-block aling-top" alt="logo1" loading="lazy">
             <a class="navbar-brand" href="#">Delicias</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=""></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
@@ -48,6 +49,13 @@
     <label for="Descripcionp1">Descripcion del producto</label>
     <input type="text" class="form-control" id="Descripcionp1" placeholder="Describa el producto" name="descripcionp">
   </div>
+
+  <div class="form-group">
+    <label for="Foto1">Imagen</label>
+    <input type="text" class="form-control" id="Foto1" placeholder="URL de la imagen" name="foto">
+  </div>
+
+
   <div class="form-group">
     <div class="form-check mb-2">
       <input class="form-check-input" type="checkbox" id="Guardar1">
